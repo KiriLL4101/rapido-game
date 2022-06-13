@@ -59,11 +59,14 @@ export const Button = styled.button`
   padding: 13px 26px;
   border: 1px soled #000;
   border-radius: 40px;
-  opacity: 0.4;
   color: #000000;
   cursor: pointer;
   margin: 20px 0;
   align-self: center;
+
+  &:disabled{
+    opacity: 0.3;
+  }
 `;
 
 export const ResultTitle = styled.div`
